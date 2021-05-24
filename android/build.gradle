@@ -31,6 +31,7 @@ android {
 }
 
 repositories {
+    jcenter()
     mavenCentral()
     maven { url "https://maven.google.com" }
     maven {
@@ -39,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.nbsp:library:1.8'
+    compile 'com.nbsp:materialfilepicker:1.9.1'
     compile 'com.android.support:appcompat-v7:27.0.2'
     compile 'com.android.support:support-v4:27.0.2'
     compile 'com.facebook.react:react-native:+'
